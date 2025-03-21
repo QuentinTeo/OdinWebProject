@@ -1,24 +1,54 @@
+body {
+    margin: 0px;
+}
+
 .header {
     display: flex;
     background-color: blueviolet;
 }
 
 .title {
+    /* padding: 10px; */
+    flex: 1;
     font-weight: 900;
     font-size: 48px;
     color: #F9FAF8;
 }
 
 . navbar {
-    display: flex;
+    flex: 1;
+    /* display: flex; */
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    
+    gap: 10px;
+    padding: 10px;
 }
 
 a {
+    color: #F9FAF8;
     text-decoration: none;
+}
+
+
+.content-primaris {
+
+}
+
+.conten-secondus {
+
+}
+
+.quote-content {
+
+}
+
+.enrol {
+
+}
+
+.footer {
+
 }
