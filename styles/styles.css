@@ -23,9 +23,19 @@ body {
 
 }
 
-. navbar {
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB ;
+}
+
+.navbar {
     flex: 1;
-    /* display: flex; */
 }
 
 ul {
@@ -44,7 +54,25 @@ a {
 
 .content-primaris {
     display: flex;
+    background-color: #1F2937;
+    padding: 10px;
 
+}
+
+.description-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* placeholder image */
+.box {
+    flex: 1;
+    border: blueviolet;
+    width: 500px;
+    height: 300px;
+    background-color: #F9FAF8;
 }
 
 .conten-secondus {
@@ -55,6 +83,12 @@ a {
     width: 200px;
 
 }
+
+.card-content {
+
+}
+
+.card-image {}
 
 .quote-content {
 
