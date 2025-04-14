@@ -18,10 +18,10 @@ body {
 }
 
 /* deciding on concept */
-.logo{
+/* .logo{
 
 
-}
+} */
 
 .main-text {
     font-size: 48px;
@@ -34,7 +34,7 @@ body {
     color: #E5E7EB ;
 }
 
-
+/* navigation bar */
 .navbar {
     flex: 1;
 }
@@ -70,7 +70,7 @@ a {
 
 /* placeholder image */
 .box {
-    border: blueviolet;
+    border: blueviolet 20px;
     width: 500px;
     height: 300px;
     background-color: #F9FAF8;
@@ -141,15 +141,35 @@ button{
 }
 
 /* sign-up content */
-.enrol-content {
+.signup-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
 
 }
 
-.signup-box {}
+.signup-box {
+    background-color: #3882f6;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
+.signup-textbox {
+    display: flex;
+    flex-direction: column;
+    
+}
+/* 
 .signup-button {
 
-}
+} */
 
 .footer {
     
